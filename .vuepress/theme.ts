@@ -3,18 +3,18 @@ import navbar from "./navbar";
 import sidebar from "./sidebar";
 
 export default hopeTheme({
-  hostname: "https://vuepress-theme-hope-v2-demo.mrhope.site",
+  hostname: "https://ruinote.site",
 
   author: {
-    name: "Mr.Hope",
-    url: "https://mrhope.site",
+    name: "RuiTan",
+    url: "https://ruinote.site",
   },
 
   iconPrefix: "iconfont icon-",
 
   logo: "/logo.svg",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  repo: "RuiTan/ruinote",
 
   docsDir: "demo/src",
 
@@ -28,10 +28,10 @@ export default hopeTheme({
 
   displayFooter: true,
 
-  pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime"],
+  pageInfo: ["Date", "Category", "Tag", "Word", "ReadingTime"],
 
   blog: {
-    description: "一个前端开发者",
+    description: "退堂鼓演奏家",
     intro: "/intro.html",
     medias: {
       Email: "mailto:1063932362@qq.com",
@@ -80,10 +80,10 @@ export default hopeTheme({
        * Using giscus
        */
       type: "giscus",
-      repo: "vuepress-theme-hope/giscus-discussions",
-      repoId: "R_kgDOG_Pt2A",
+      repo: "RuiTan/RuiNote",
+      repoId: "R_kgDOHVY0-A",
       category: "Announcements",
-      categoryId: "DIC_kwDOG_Pt2M4COD69",
+      categoryId: "DIC_kwDOHVY0-M4CPGXs",
 
       /**
        * Using twikoo

@@ -1,6 +1,6 @@
 export const themeData = {
   "blog": {
-    "description": "一个前端开发者",
+    "description": "退堂鼓演奏家",
     "intro": "/intro.html",
     "medias": {
       "Email": "mailto:1063932362@qq.com",
@@ -13,7 +13,7 @@ export const themeData = {
   "encrypt": {
     "config": {
       "/guide/encrypt.html": [
-        "$2a$10$0XyyI2tDNoBTVzNP4ra8kOuxZ6AF65SYMSwL8Wus4sfahSuF.VMjq"
+        "$2a$10$drH8Tsym/NjR2pvhdxBoVuLH.arELRWcWBvq62KWh437XLEL7KSI2"
       ]
     }
   },
@@ -100,60 +100,172 @@ export const themeData = {
       "navbarAutoHide": "mobile",
       "hideSiteNameonMobile": true,
       "sidebar": [
-        "/",
-        "/home",
-        "/slide",
         {
-          "text": "如何使用",
-          "icon": "creative",
-          "prefix": "/guide/",
-          "link": "/guide/",
-          "children": "structure"
-        },
-        {
-          "text": "文章",
-          "icon": "note",
-          "prefix": "/posts/",
+          "text": "Java",
+          "icon": "java",
+          "prefix": "/guide/java/",
+          "collapsable": true,
           "children": [
             {
-              "text": "文章 1-4",
-              "icon": "note",
+              "text": "基础知识",
+              "icon": "overflow",
               "collapsable": true,
-              "prefix": "article/",
+              "prefix": "basic/",
               "children": [
-                "article1",
-                "article2",
-                "article3",
-                "article4"
+                {
+                  "text": "面向对象",
+                  "link": "面向对象"
+                },
+                {
+                  "text": "数据类型",
+                  "link": "数据类型"
+                },
+                {
+                  "text": "反射机制",
+                  "link": "反射机制"
+                },
+                {
+                  "text": "异常和错误",
+                  "link": "异常和错误"
+                }
               ]
             },
             {
-              "text": "文章 5-12",
-              "icon": "note",
+              "text": "容器",
+              "icon": "structure",
+              "collapsable": true,
+              "prefix": "collections/",
               "children": [
                 {
-                  "text": "文章 5-8",
-                  "icon": "note",
-                  "collapsable": true,
-                  "prefix": "article/",
-                  "children": [
-                    "article5",
-                    "article6",
-                    "article7",
-                    "article8"
-                  ]
+                  "text": "List",
+                  "link": "List"
                 },
                 {
-                  "text": "文章 9-12",
-                  "icon": "note",
-                  "children": [
-                    "article9",
-                    "article10",
-                    "article11",
-                    "article12"
-                  ]
+                  "text": "Queue",
+                  "link": "Queue"
+                },
+                {
+                  "text": "Map",
+                  "link": "Map"
+                },
+                {
+                  "text": "Set",
+                  "link": "Set"
                 }
               ]
+            },
+            {
+              "text": "并发编程",
+              "icon": "asynchronous",
+              "collapsable": true,
+              "prefix": "concurrent/",
+              "children": [
+                {
+                  "text": "线程基础",
+                  "link": "线程基础"
+                },
+                {
+                  "text": "锁",
+                  "link": "锁"
+                },
+                {
+                  "text": "并发容器",
+                  "link": "并发容器"
+                },
+                {
+                  "text": "线程池",
+                  "link": "线程池"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "数据库",
+          "icon": "storage",
+          "prefix": "/guide/db/",
+          "collapsable": true,
+          "children": [
+            {
+              "text": "理论基础",
+              "icon": "read",
+              "link": "理论基础"
+            },
+            {
+              "text": "索引",
+              "icon": "tree",
+              "link": "索引"
+            },
+            {
+              "text": "锁",
+              "icon": "lock",
+              "link": "锁"
+            },
+            {
+              "text": "底层存储",
+              "icon": "window",
+              "link": "底层存储"
+            }
+          ]
+        },
+        {
+          "text": "操作系统",
+          "icon": "linux",
+          "prefix": "/guide/os/",
+          "collapsable": true,
+          "children": [
+            {
+              "text": "中断和异常",
+              "icon": "extend",
+              "link": "中断和异常"
+            },
+            {
+              "text": "进程管理",
+              "icon": "material",
+              "link": "进程管理"
+            },
+            {
+              "text": "内存管理",
+              "icon": "footer",
+              "link": "内存管理"
+            },
+            {
+              "text": "文件管理",
+              "icon": "file",
+              "link": "文件管理"
+            },
+            {
+              "text": "I/O管理",
+              "icon": "change",
+              "link": "IO管理"
+            }
+          ]
+        },
+        {
+          "text": "计算机网络",
+          "icon": "network",
+          "prefix": "/guide/network/",
+          "collapsable": true,
+          "children": [
+            {
+              "text": "网络分层模型",
+              "icon": "sort",
+              "link": "网络分层模型"
+            },
+            {
+              "text": "TCP协议",
+              "icon": "remote",
+              "link": "TCP协议"
+            },
+            {
+              "text": "HTTP协议",
+              "icon": "http",
+              "link": "HTTP协议"
+            },
+            {
+              "text": "幻灯片",
+              "icon": "page",
+              "link": "slide"
             }
           ]
         }
@@ -161,90 +273,31 @@ export const themeData = {
       "sidebarIcon": true,
       "headerDepth": 2,
       "author": {
-        "name": "Mr.Hope",
-        "url": "https://mrhope.site"
+        "name": "RuiTan",
+        "url": "https://ruinote.site"
       },
       "logo": "/logo.svg",
-      "repo": "vuepress-theme-hope/vuepress-theme-hope",
+      "repo": "RuiTan/ruinote",
       "docsDir": "demo/src",
       "navbar": [
-        "/",
-        "/home",
         {
-          "text": "使用指南",
+          "text": "笔记整理",
           "icon": "creative",
           "link": "/guide/"
         },
         {
-          "text": "博文",
-          "icon": "edit",
-          "prefix": "/posts/",
-          "children": [
-            {
-              "text": "文章 1-4",
-              "icon": "edit",
-              "prefix": "article/",
-              "children": [
-                {
-                  "text": "文章 1",
-                  "icon": "edit",
-                  "link": "article1"
-                },
-                {
-                  "text": "文章 2",
-                  "icon": "edit",
-                  "link": "article2"
-                },
-                "article3",
-                "article4"
-              ]
-            },
-            {
-              "text": "文章 5-12",
-              "icon": "edit",
-              "children": [
-                {
-                  "text": "文章 5",
-                  "icon": "edit",
-                  "link": "article/article5"
-                },
-                {
-                  "text": "文章 6",
-                  "icon": "edit",
-                  "link": "article/article6"
-                },
-                "article/article7",
-                "article/article8"
-              ]
-            },
-            {
-              "text": "文章 9",
-              "icon": "edit",
-              "link": "article9"
-            },
-            {
-              "text": "文章 10",
-              "icon": "edit",
-              "link": "article10"
-            },
-            "article11",
-            "article12"
-          ]
-        },
-        {
-          "text": "主题文档",
-          "icon": "note",
-          "link": "https://vuepress-theme-hope.github.io/v2/zh/"
+          "text": "文档源码",
+          "icon": "github",
+          "link": "https://github.com/RuiTan/RuiNote"
         }
       ],
       "footer": "默认页脚",
       "displayFooter": true,
       "pageInfo": [
-        "Author",
-        "Original",
         "Date",
         "Category",
         "Tag",
+        "Word",
         "ReadingTime"
       ]
     }

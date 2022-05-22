@@ -1,48 +1,40 @@
 ---
 home: true
-layout: Blog
 icon: home
-title: 博客主页
+title: RuiNote
 heroImage: /logo.svg
-heroText: 你博客的名称
-heroFullScreen: true
-tagline: 你可以在这里放置你的口号与标语
-projects:
-  - icon: project
-    name: 项目名称
-    desc: 项目详细描述
-    link: https://你的项目链接
+heroText: RuiNote
+tagline: Rui的学习笔记
+actions:
+  - text: 开始游戏 💡
+    link: /guide/
 
-  - icon: link
-    name: 链接名称
-    desc: 链接详细描述
-    link: https://链接地址
+  - text: 博客主页 🏠
+    link: /
+    type: secondary
 
-  - icon: book
-    name: 书籍名称
-    desc: 书籍详细描述
-    link: https://你的书籍链接
+features:
+  - title: Markdown 增强
+    icon: markdown
+    details: 新增文字对齐、上下角标、脚注、标记、任务列表、数学公式、流程图、图表与幻灯片支持
+    link: https://vuepress-theme-hope.github.io/v2/zh/guide/markdown/
 
-  - icon: article
-    name: 文章名称
-    desc: 文章详细描述
-    link: https://你的文章链接
+  - title: 幻灯片页面
+    icon: slides
+    details: 添加幻灯片页面以显示你喜欢的内容
+    link: https://vuepress-theme-hope.github.io/v2/zh/guide/layout/slides
 
-  - icon: friend
-    name: 伙伴名称
-    desc: 伙伴详细介绍
-    link: https://你的伙伴链接
+  - title: 布局增强
+    icon: layout
+    details: 添加路径导航、页脚、改进的导航栏、改进的页面导航等。
+    link: https://vuepress-theme-hope.github.io/v2/zh/guide/layout/
 
-  - icon: /logo.svg
-    name: 自定义项目
-    desc: 自定义详细介绍
-    link: https://你的自定义链接
+  - title: 浏览量与评论
+    icon: comment
+    details: 配合 Waline 来开启阅读量统计与评论支持
+    link: https://vuepress-theme-hope.github.io/v2/zh/guide/feature/comment.html
 
-footer: 自定义你的页脚文字
+copyright: false
+footer: Copyright © 2022-present RuiTan
 ---
 
-这是一个博客主页。
-
-要使用此布局，你应该在页面前端设置 `layout: Blog` 和 `home: true`。
-
-相关配置文档请见 [博客主页](https://vuepress-theme-hope.github.io/v2/zh/guide/blog/home/)。

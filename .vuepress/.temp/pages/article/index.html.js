@@ -16,14 +16,14 @@ export const data = {
         "meta",
         {
           "property": "og:url",
-          "content": "https://vuepress-theme-hope-v2-demo.mrhope.site/article/"
+          "content": "https://ruinote.site/article/"
         }
       ],
       [
         "meta",
         {
           "property": "og:site_name",
-          "content": "主题演示"
+          "content": "RuiNote"
         }
       ],
       [
