@@ -95,6 +95,31 @@ export const data = {
     },
     {
       "level": 2,
+      "title": "String类型",
+      "slug": "string类型",
+      "children": [
+        {
+          "level": 3,
+          "title": "创建String实例的两种方式",
+          "slug": "创建string实例的两种方式",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "字符串常量池",
+          "slug": "字符串常量池",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "不可变的String",
+          "slug": "不可变的string",
+          "children": []
+        }
+      ]
+    },
+    {
+      "level": 2,
       "title": "泛型编程",
       "slug": "泛型编程",
       "children": [
@@ -114,8 +139,8 @@ export const data = {
     }
   ],
   "readingTime": {
-    "minutes": 3.08,
-    "words": 923
+    "minutes": 7.03,
+    "words": 2110
   },
   "filePathRelative": "guide/java/basic/数据类型.md"
 }
